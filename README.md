@@ -44,4 +44,8 @@ De la fórmula anterior se sabe que para obtener el coeficiente de correlación 
 
 Con los datos obtenidos en la pregunta 1 se obtiene la función de densidades marginales (2D) dada por el modelo gaussiano para la distribución en X y en Y. Dichas gráficas son:
 
-<img src="./coeficiente.png" width="200">
+<img src="./x4.png" width="400"> <img src="./y4.png" width="400">
+
+Para realizar la gráfica en 3D de la densidad conjunta, primeramente se utilizó la densidad conjunta obtenida en la pregunta 2, donde se realiza una matriz de coordenadas con "x" y "y". Importando la bliblioteca Axes3D y utilizando  plt.axes se obtiene la siguiente gráfica de densidad conjunta:
+
+<img src="./3d.png" width="400">
