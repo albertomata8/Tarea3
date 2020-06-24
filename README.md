@@ -41,6 +41,7 @@ Del coeficiente se tiene la fórmula:
 
 De la fórmula anterior se sabe que para obtener el coeficiente de correlación se debe dividir la covarianza entre el sigma del modelo de X y el de Y. Por ende de la parte 1 se tiene que SigmaX= 3.29944287 y SigmaY= 6.02693775. Con el programa se obtiene un coeficiente de correlacion de 0.0033537726804049365. Ya que el coeficiente da mayor a cero esto significa que posee una asociación positiva, lo que quiere decir que conforme se va aumentando el valor de una variable, también lo esta realizando el valor de la otra.
 ### Pregunta 4: Graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D).
+
 Con los datos obtenidos en la pregunta 1 se obtiene la función de densidades marginales (2D) dada por el modelo gaussiano para la distribución en X y en Y. Dichas gráficas son:
 
-<img src="./xnuevo.png" width="400"> <img src="./ynuevo.png" width="400">
+<img src="./coeficiente.png" width="200">
