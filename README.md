@@ -29,9 +29,13 @@ Asumiendo independencia de X y Y,  la expresión de la función de densidad conj
 ### Pregunta 3: Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado.
 Se sabe que para la correlación se tiene la fórmula:
 
-<img src="./correlacion.png" width="400"> 
+<img src="./correlacion1.png" width="400"> 
 
 En este caso debido a que es discreto, en vez de integral consiste en una suma de los valores X*Y*frecuenciarelativa, de modo que se calcula X5*Y5*0.00262+X6*Y5*0.00493+... así con todas las X para Y5 y luego se pasa a Y6 y así hasta terminar todas las columnas. Con el programa se obtiene una correlación de 149.54281.Como se sabe que la correlación es el grado en el cual dos o más cantidades están linealmente asociadas, o dicho de otra manera la correlación es una medida de la fuerza de la relación entre dos variables, este resultado obtenido de la correlación dado que es un número positivo grande significa que las variables están linealmente asociadas.
+
+Se sabe que para la covarianza se tiene la fórmula:
+
+<img src="./covarianza.png" width="400"> 
 
 Para obtener la covarianza se realiza lo mismo, con la diferencia que en vez de X seria (X - X´) al igual que con Y que seria (Y - Y'). Donde X' es la media del modelo, que en este caso es mu ya que se tiene una función gaussiana. Por ende de la primera parte se tiene que X´= 9.90484381 y Y'= 15.0794609. Con el programa se obtiene una covarianza de 0.06669157001171337. Esto indica la dispersión entre las dos variables, además de que como dá mayor que cero se sabe que poseen relación directa y que cuando una variable crece la otra variable también lo hace.
 
