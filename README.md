@@ -1,13 +1,13 @@
 # Tarea3
 ### Pregunta 1: A partir de los datos, encontrar la mejor curva de ajuste (modelo probabilístico) para las funciones de densidad marginales de X y Y.
 
-Primeramente se importan los datos mediante la libreria pandas. Posteriormente se procede a crear las listas x,y,Px,Py. Donde la lista "x" contiene todos los valores de esta variable, lo mismo para la "y". Donde además la lista Px contiene la densidad marginal de cada "x", y la lista Py la densidad marginal de cada "y". Cabe mencionar que para obtener la densidad marginal en "x" se sumaron todos los elementos de manera horizontal. Para obtener la densidad marginal en "y" se  se sumaron todos los elementos de manera vertical.Una vez que se llenaron las lista x,y,Px y Py se procede a gráficar para observar su comportamiento. 
+Primeramente se importan los datos mediante la libreria pandas. Se sabe que los datos son discretos,por ende para obtener la función probabilidad marginal simplemente se suman los valores de las filas X y columnas Y. Para esto en el programa se procede a crear las listas x,y,Px,Py. Donde la lista "x" contiene todos los valores de esta variable, lo mismo para la "y". Donde además la lista Px contiene la densidad marginal de cada "x", y la lista Py la densidad marginal de cada "y". Cabe mencionar que para obtener la densidad marginal en "x" se sumaron todos los elementos de manera horizontal. Para obtener la densidad marginal en "y" se  se sumaron todos los elementos de manera vertical.Una vez que se llenaron las lista x,y,Px y Py se procede a gráficar para observar su comportamiento. 
 
 Las gráficas de la distribución en  "X" y "Y" son respectivamente:
 
 <img src="./x.png" width="400"> <img src="./y.png" width="400">
 
-Observando las curvas se sabe que tiene que ajustarse a una curva gaussiana. Por lo que se calculan los parámetros y se obtiene un valor de mu=9.90484381 y sigma= 3.29944287 para la curva de mejor ajuste de acuerdo a la distribución en "X". Se obtiene un valor de mu=15.0794609 y sigma=6.02693775 para la curva de mejor ajuste de acuerdo a la distribución en "Y". Ambos ajustes de curva se ven en la siguiente gráfica:
+Observando las curvas se sabe que tiene que ajustarse a una curva gaussiana. Por lo que se calculan los parámetros y se obtiene un valor de mux=9.90484381 y sigmax= 3.29944287 para la curva de mejor ajuste de acuerdo a la distribución en "X". Se obtiene un valor de muy=15.0794609 y sigmay=6.02693775 para la curva de mejor ajuste de acuerdo a la distribución en "Y". Ambos ajustes de curva se ven en la siguiente gráfica:
 
 <img src="./xcurvaajuste.png" width="400"> <img src="./ycurvaajuste.png" width="400">
 
