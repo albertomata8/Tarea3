@@ -52,4 +52,4 @@ Con los datos obtenidos en la pregunta 1 se obtiene la función de densidades ma
 
 Para realizar la gráfica en 3D de la densidad conjunta, primeramente se utilizó la densidad conjunta obtenida en la pregunta 2, donde se realiza una matriz de coordenadas con "x" y "y". Importando la bliblioteca Axes3D y utilizando  plt.axes se obtiene la siguiente gráfica de densidad conjunta:
 
-<img src="./3d.png" width="400">
+<img src="./tresD.png" width="400">
